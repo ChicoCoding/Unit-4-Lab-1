@@ -1,0 +1,39 @@
+.coinContainer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+}
+div.coin {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-color: silver;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+div.Penny {
+  width: 75px;
+  height: 75px;
+  display: flex;
+
+  background-color: brown;
+  border-radius: 50%;
+}
+
+p.light {
+  width: 150px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+}
+p.light.on {
+  background-color: yellow;
+  color: black;
+}
+p.light.off {
+  background-color: gray;
+  color: white;
+}
